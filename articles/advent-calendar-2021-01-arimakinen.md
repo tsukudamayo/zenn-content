@@ -3,7 +3,7 @@ title: "有馬記念予想一人アドベントカレンダー1日目"
 emoji: "🐙"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [GCP]
-published: false
+published: true
 ---
 
 # これは何ですか？
@@ -35,22 +35,23 @@ published: false
   src="https://www.youtube.com/embed/82pP6N6GAas?autoplay=1&origin=http://example.com"
   frameborder="0"></iframe>
 - ヒシミラクルが勝った天皇賞春
-
-2iy6BoD03Vo
+<iframe id="ytplayer" type="text/html" width="640" height="360"                              src="https://www.youtube.com/embed/2iy6BoD03Vo?autoplay=1&origin=http://example.com"       frameborder="0"></iframe> 
 
 ## MLOpsやりたい, Vertex AI Pipelinesを使いたい
-
-
-# 有馬記念とは？
-- 年末を締め括る大イベント
+- MLOpsの知見をためたいです
 
 # 構成
+競馬を分析するシステムとしては以下のように現在は考えています。
 - インフラ(GCP, Vertex AI Pipelines)
 - クローラ(Scrapy? Puppeteer?)
 - データ分析基盤(BigQuery)
 - モデル構築,推論(Vertex AI)
 
 # スケジュール
+だいたい以下のようなスケジュールで進めたいです。
 - 12/1~12/8 データのクローリング、前処理
 - 12/9~12/17 データの分析
 - 12/18~12/25 モデル構築、推論
+
+明日から有馬記念を予想するためにはどのようなデータが必要なのかを検討し
+ていきたいと思います。
